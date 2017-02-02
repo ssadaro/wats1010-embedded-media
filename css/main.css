@@ -4,7 +4,124 @@
  *
  * Site Styles
  *****************************************************************************/
+body {
+  margin:0px;
+  background:linear-gradient(to top, white, #000099);
+  color:black;
+ 
+}
+html {
+  padding:0px;
+  
+}
 
- html {
-     color: green;
- }
+header {
+  background-image: url(../img/monkaa_monkeyhang.jpg);
+  background-repeat:no-repeat;
+  min-height:425px;
+  background-position:center;
+  background-size: cover;
+  text-align:center;
+  font-family: 'Barrio', cursive;
+  color: #ffffff;
+  text-shadow: 0 0 7px #4db8ff;
+  font-size:25px;
+}
+h2,h3,p {
+  text-align: center;
+  color:black;
+}
+
+#social{
+  background:#d1d1e0;
+  position:absolute;
+  top:280px;
+  right:0;
+  width:75px;
+  transition: 3s width;
+}
+#social:hover {
+  width:200px;
+
+}
+
+#social ul{
+  list-style-type: none;
+  padding: 0;  
+}
+
+#social li{
+  paddding: 0;
+  margin: 0;
+}
+
+video {
+  width:800px;
+  height:auto;
+  border:5px solid #595959;
+  margin-left:220px;
+  
+}
+#listen{
+  margin-bottom:50px;
+}
+
+#about ul li{
+  display:inline-block;
+  padding:100px;
+  
+}
+img.headshot{
+  width:150px;
+  height:auto;
+  border:1px solid #595959;
+ 
+}
+
+footer {
+  background-color: #f0f0f5;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+nav ul li{
+  list-style-type:none;
+  padding:10px;
+  display:inline;
+}
+
+a {
+  text-decoration:none;
+}
+
+
+a:link {
+  color:#9933ff;
+}
+
+a:visited {
+  color:#2e004d;
+}
+.download-button{
+ background-color:#ffff1a;
+ border:1px solid #660000;
+ border-radius:30px;
+ color:#fff;
+ margin-top: 15px;
+ margin-left:10px;
+ padding:10px 10px 10px 10px;
+ display: inline-block;
+  
+}
+
+.lead {
+  line-height:1.8;
+  word-spacing:5px;
+  font-family: cursive;
+  width:450px;
+  margin-left:400px;
+  text-transform: capitalize;
+  text-shadow: 0 0 3px #4db8ff;
+}
